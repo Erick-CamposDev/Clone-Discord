@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+h1{
+    font-family: 'Luckiest Guy';
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 200px;
+    font-size: 32px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 155px;
+    
+}
+
+.header-content p{
+    flex-direction: column;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 350px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header-content .button-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-group button{
+    padding: 7px;
+    margin: 10px 0px 7px
+
+}
+
+#button-01{
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    width: 425px
+}
+
+#button-02{
+    border-radius: 28px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+.header{
+    display: flex;
+    background-image: url('../assets/images/header-bg.png');
+    width: 100%;
+    padding: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 150vh;
+    min-height: 25vh;
+
+}
+
+h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+
+.content-01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.content-01 .text-01{
+    width: 550px;
+}
+
+.content-01 .text-01 h2{
+    margin-bottom: 25px;
+}
+
+.content-02{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.content-02 .text-02{
+    width: 550px;
+}
+
+.content-02 .text-02 h2{
+    margin-bottom: 25px;
+}
+
+.content-03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.content-03 .text-03{
+    width: 550px;
+}
+
+.content-03 .text-03 h2{
+    margin-bottom: 25px;
+}
+
+.section-04{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+.section-04 h2, p{
+    width: 550px;
+    margin: 25px 0px 25px
+}
+
+.section-04 h2{
+    font-family: 'Luckiest Guy';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    background-color: #23272A;
+    justify-content: center;
+    align-items: center;
+    min-width: 150vh;
+    
+}
+
+footer img{
+    width: 300px;
+    filter: brightness(0) invert(1)
+}
+
+
+@media (min-width: 768px){
+    .header{
+        padding: 4rem;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;
+        min-width: 180vh;
+
+    }
+
+
+    h1{
+       position: relative;
+       white-space: nowrap;
+       
+    }
+
+    .header-content{
+        align-items: center;
+        position: relative;
+        right: 30px;
+        top: 50px
+    }
+
+    .content-01, .content-02, .content-03{
+        flex-direction: row;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-content p{
+        position: relative;
+        top: 20px;
+    }
+
+    .header-content .button-group{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .button-group button{
+        margin: 10px;
+        padding: 15px
+    }
+
+    #button-01{
+        width: 425px;
+    }
+
+    #button-02{
+        width: 425px;
+    }
+
+    .section-04{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    footer{
+        min-width: 180vh;
+    }
+}
