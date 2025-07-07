@@ -37,3 +37,4 @@ O layout se adapta automaticamente aos seguintes breakpoints:
 [Footer](assets/images/Footer..jpg)
 
 ## 📎 Link do Projeto
+[Projeto Discord](https://erick-camposdev.github.io/Clone-Discord/)
