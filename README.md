@@ -33,7 +33,7 @@ O layout se adapta automaticamente aos seguintes breakpoints:
 - **Desktop:** acima de 1024px
 
 ## 📷 Capturas de Tela
-[Header](assets/images/header-bg.png)
+[Header](assets/images/HeaderFinal..jpg)
 [Footer](assets/images/Footer..jpg)
 
 ## 📎 Link do Projeto
