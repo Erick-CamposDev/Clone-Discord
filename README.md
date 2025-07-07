@@ -31,3 +31,9 @@ O layout se adapta automaticamente aos seguintes breakpoints:
 - **Mobile:** até 767px
 - **Tablet:** de 768px a 1023px
 - **Desktop:** acima de 1024px
+
+## 📷 Capturas de Tela
+[Header](assets/images/header-bg.png)
+[Footer](assets/images/Footer..jpg)
+
+## 📎 Link do Projeto
